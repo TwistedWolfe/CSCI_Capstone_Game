@@ -1,0 +1,97 @@
+playMusic(CCLYLL_BGM) transBackground(lonely_building, blur)
+
+narrator "You make your way to the office, hoping to find something to spark inspiration...{c} You make your way inside."
+
+transBackground(future_office, sides)
+
+narrator "Inside the office everything looks as normal as it's always been...{c}But suddenly you hear the voice of a woman that seems <color=yellow><i>vaguely familiar</i></color>"
+
+*?????????? "Hey there champ, how's it going?"
+
+enter(JavaScript)
+
+[playername] "Ah...{a}Hello, uh..."
+
+narrator "It seems you have blanked on the name of the woman in front of you...{a}Hopefully she won't notice!"
+
+*?????????? "You don't remember my name...do you?"
+
+narrator "<i>She totally noticed</i>{c}You should ask her for her name again."
+
+CHOICE "Ask her name?"
+{
+    "Yes"
+    Player "I'm really sorry...what is your name again?"
+    "No"
+    Player "I absolutely remember your name...<i>you!</i>"
+}
+
+JavaScript "Hmph!{a} My name is <color=yellow>JavaScript!</color>{a} Don't go forgetting me this time!"
+
+narrator "Despite her shouting, <color=yellow>JavaScript</color> seems happy you know her name now!"
+
+[playername] "It's nice to meet you again <color=yellow>JavaScript</color>."
+
+JavaScript "Agreed! {a}...So, there was something I wanted to talk with you about and-"
+
+narrator "Before she can finish, a booming voices echoes towards you direction."
+
+*???? "<color=yellow>JAVASCRIPT!</color>{c} What have I told you about <i>talking</i> instead of <b>working</b>?"
+
+*JavaScript "<i>Oh boy</i>,{a} Here we go..."
+
+move(JavaScript,0.1,0.0,10,true)
+
+enter(Java) move(Java,1.0,0.0,10,true)
+
+narrator "A man in a blue suit comes up to the both of you, looking extremely annoyed"
+
+*???? "I can't just have to chit chatting on company time, we have deadlines to get through and you have to pull your weight!"
+
+JavaScript "What? Am I not allowed to converse with a possible new member to my team?"
+
+narrator "JavaScript looks at you with a wink"
+
+*???? "You don't get to make those decisions on your own, there are other teams [playername] might like to join..."
+
+JavaScript "Oh?{a} Like your team <color=orange>Java</color>?"
+
+Java "Yes, like my team. We have many open spots perfect for soon to be grads like [playername].{c} Is that such a bad thing?"
+
+JavaScript "It is a problem if [playername] wants to be <i>bored</i> to death!{c} And at least my team doesn't have a leader with a stick up his-"
+
+Java "Alright enough! How very inappropriate, especially in front of a possible new recruit."
+
+narrator "<color=orange>Java</color> turns towards you."
+
+Java "I apologize for <color=yellow>JavaScript</color>'s behavior.{c} You look like you have something to say [playername], go on."
+
+CHOICE "What's on your mind?""
+{
+    "They Get Along"
+      Player "You two seem to get along, are you possibly related? Your names are similar too..."
+    "They Butt Heads"
+      Player "You two seem to butt heads a bit, are you possibly related? Your names are similar too..."
+}
+
+narrator "The pair looks at you with expressions of complete shock.{c} <i>Did you say something wrong?</i>"
+
+JavaScript "<i>Gross!</i> How could you <b>POSSIBLY</b> assume we were related?{c} The name are just a coincidence! We are nothing alike at all!"
+
+Java "I would usually be offended by such disgust in my direction but I have to agree.{c} We are very different, not related in the slightest...{c} I tend to stick to the <b>program</b> while <color=yellow>JavaScript</color> here seems to run off a <b>script</b>."
+
+JavaScript "Hah? Well at least I allow my team to <b>browse</b> unlike someone who keeps them strapped to their <b>virtual machines</b>!"
+
+Java "Hmph...if you wanted I could <b>compile</b> a list of other reasons we differ or would you like me to <b>text</b> it to you? Since that is your personal way of conducting business..."
+
+JavaScript "Gah whatever you old geezer! You're such a bore, even to argue with!{c} Maybe we should let [playername] decide whose team they'd want to scout out joining."
+
+Java "For once, not a bad idea <color=yellow>JavaScript</color>. What do you say [playername]? Who would you like to go with?"
+
+CHOICE "Who will you go with?"
+{
+    "JavaScript"
+      Load(CH2_JavaScript)
+    "Java"
+      Load(CH2_Java)
+}

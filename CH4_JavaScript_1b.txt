@@ -1,0 +1,42 @@
+[playername] "I'd like to get to know your uses more."
+
+narrator "<color=yellow>JavaScript</color> smiles at you."
+
+JavaScript "Alright let's get started then!"
+
+"To begin, here's a little info about me.{c} I'm a text-based programming language used both on the client-side that allows you to make web pages interactive."
+"Incorporating me improves the user experience of the webpage by converting it from a static page into an interactive one. {c} I add behavior to web pages!"
+"I'm used for adding interactive behavior to web pages. {c} There is almost no limits to what can be done with me on a web page."
+"Some examples of interactive behaviors include: show/hide info with the click of a button.{c}Changing the color of a button when a mouse is hovered over it. {c} Sliding through a carousel of images on a homepage.{c}Zooming in and out on an image.{c}Displaying a timer or count-down on a website.{c}
+Playing audio and video in a web page. {c} Displaying animations, {a} and using a drop-down hamburger menu."
+"I can also be used in creating web and mobile apps.{c} Developers can use various of my frameworks for developing and building web and mobile apps.{c}My frameworks are collections of my code libraries that provide devs with pre-written code to use for routine programming features and tasks."
+"Some of my popular front-end frameworks include React, React Native, Angular, and Vue.{c} Many companies use Node.js, my runtime environment built on Google Chrome's V8 engine."
+"I can also assist in building web serves and developing server applications!{c} Developers can use me to build simple web servers and develop the back-end infrastructure using Node.js."
+"I am also good for game development! {c} You can use me to create browser games! It's a good way to practice your skills!"
+"Why use me though? {c} Well, I am the only programming language native to the web browser. {c} I'm the most popular language, there's a low threshold to get started and I'm fun to learn!"
+
+narrator "<color=yellow>JavaScript</color> is really beloved in the programming world, she seems to be doing well for herself. {c} You feel a lot more inspired after your conversation."
+
+[playername] "Thanks for sharing all of this with me <color=yellow>JavaScript</color>, you've really given me something to think about!"
+
+JavaScript "No problem kid! It's what I'm here for, glad I could help."
+
+exit(JavaScript)
+
+narrator "You and <color=yellow>JavaScript</color> chat for a bit more and then part ways for the evening."
+
+transBackground(room_dusk_light_on, rightLeft) playMusic(Opening_for_CCLYLL_-_80_BPM)
+
+narrator "You had a great time learning all about <color=yellow>JavaScript</color>'s uses...{a} and you're feeling very inspired!"
+
+[playername] "I've decided to do a project with <color=yellow>JavaScript</color>."
+
+*Professor "That's great [playername], what brought on this idea?"
+
+[playername] "Just a conversation with a friend."
+
+transBackground(black, feathers)
+
+narrator "Thanks for playing! You've successfully completed <color=yellow>JavaScript</color>'s route 2! {c} You can click the MENU button to return to the main menu and see what other routes there are to discover. {c} Happy playing! -Bec"
+
+playMusic(null)

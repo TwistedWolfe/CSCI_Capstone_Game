@@ -1,0 +1,40 @@
+[playername] "I'd like to get to know your history more."
+
+narrator "<color=blue>Python</color> smiles at you."
+
+Python "An <i>excellent</i> choice, Player! Let's get started!"
+
+"I was initially designed by <b>Guido van Rossum</b> in 1991 and developed by <b>Python Software Foundation</b>.{c}The programming language which I'm said to have succeeded is <i>ABC Programming Language</i>, which had the interfacing with the <b>Amoeba Operating System</b> and had the feature of exception handling."
+"Rossum had already helped to create ABC earlier in his career...and he had seen some issues with ABC but liked most of the features.{c} After that what he did as really very clever. He had taken the syntax of ABC, and some of its good features. It came with a lot of complaints too...so he fixed those issues!"
+"I was mainly developed for emphasis on code readability, and my syntax allows programmers to express concepts in fewer lines of code.{c} When I was released I had more than enough capability to provide classes with inheritance, several core data types exception handling and functions."
+"I am dynamically-typed and garbage-collected.{c} I support multiple programming paradigms, <i><b>including structured (particularly, procedural), object-oriented and functional programming</b></i>.{c} I am often described as a "batteries included" language due to my comprehensive standard library."
+"I am an <i><b>interpreted, high-level and general-purpose programming language</b></i>.{c} My design philosophy emphasizes code readability with my notable use of significant indentation."
+"My core philosophy is summarized in the document The Zen of Python,{a} which includes aphorisms such as:{c}"
+"Beautiful is better than ugly.{c} Explicit is better than implicit.{c} Simple is better than complex.{c} Complex is better than complicated.{c} Readability counts."
+"I embrace a there should be one— and preferably only one —obvious way to do it design philosophy."
+
+narrator "Wow...{a}Python certainly is complex...{a}and seemingly well loved as a language!{c} You feel a lot more inspired after your conversation."
+
+[playername] "Thanks for sharing all of this with me <color=blue>Python</color>, you've really given me something to think about!"
+
+Python "Thanks for listening! {c}That was a lot of my history thrown at you at once!{c} I hope I laid things out in a way that allowed me to keep your attention!
+
+exit(Python)
+
+narrator "You and <color=blue>Python</color> chat for a bit more and then part ways for the evening."
+
+transBackground(room_dusk_light_on, rightLeft) playMusic(Opening_for_CCLYLL_-_80_BPM)
+
+narrator "You had a great time learning all about <color=blue>Python</color>'s history...{a} and you're feeling very inspired!"
+
+[playername] "I've decided to do a project with <color=blue>Python</color>."
+
+*Professor "That's great [playername], what brought on this idea?"
+
+[playername] "Just a conversation with my partner in crime."
+
+transBackground(black, feathers)
+
+narrator "Thanks for playing! You've successfully completed <color=blue>Python</color>'s route 1! {c} You can click the MENU button to return to the main menu and see what other routes there are to discover. {c} Happy playing! -Bec"
+
+playMusic(null)

@@ -1,0 +1,39 @@
+[playername] "I'd like to get to know your history more."
+
+narrator "<color=orange>Java</color> smiles at you."
+
+Java "Alright, well let's get started."
+
+"I am an <b><i>Object-Oriented programming language</i></b> developed by <i><b>James Gosling</b></i> in the early 1990s.{c} The team initiated this project to develop a language for digital devices such as set-top boxes, television."
+"Originally C++ was considered to be used in the project but the idea was rejected for several reasons, for instance <i>C++ required more memory</i>."
+"Gosling endeavored to alter and expand C++ however before long surrendered that for making another stage called Green.{c} James Gosling and his team called their project <i><b>Greentalk</b></i> and its file extension was .gt and later became to known as <i><b>OAK</b></i>"
+"The name Oak was used by Gosling after an oak tree that remained outside his office. {c} Also Oak is an image of solidarity and picked as a national tree of numerous nations like the USA, France, Germany, and Romania {c} But they had to later rename it as <i><b>JAVA</b></i> as it was already a trademark by Oak Technologies"
+"Gosling and his team did a brainstorm session and after the session, they came up with several names such as JAVA, DNA, SILK, RUBY, etc."
+"My name was decided after much discussion since it was so unique.{c} My name originates from a sort of espresso bean, Java. {c}Gosling came up with my name while having coffee near his office.{c} You see why I chose this location for our talk?"
+"I was created on the principles like <i><b>Robust, Portable, Platform Independent, High Performance, Multithread, etc</b></i>. I was called one of the Ten Best Products of 1995 by TIME MAGAZINE."
+
+narrator "<color=orange>Java</color> is a really sophisticated programming language. {c} You feel a lot more inspired after your conversation."
+
+[playername] "Thanks for sharing all of this with me <color=orange>Java</color>, you've really given me something to think about!"
+
+Java "It's my pleasure [playername], I'm glad you enjoyed."
+
+exit(Java)
+
+narrator "You and <color=orange>Java</color> chat for a bit more and then part ways for the evening."
+
+transBackground(room_dusk_light_on, rightLeft) playMusic(Opening_for_CCLYLL_-_80_BPM)
+
+narrator "You had a great time learning all about <color=orange>Java</color>'s history...{a} and you're feeling very inspired!"
+
+[playername] "I've decided to do a project with <color=orange>Java</color>."
+
+*Professor "That's great [playername], what brought on this idea?"
+
+[playername] "Just a conversation over coffee with a friend."
+
+transBackground(black, feathers)
+
+narrator "Thanks for playing! You've successfully completed <color=orange>Java</color>'s route 1! {c} You can click the MENU button to return to the main menu and see what other routes there are to discover. {c} Happy playing! -Bec"
+
+playMusic(null)

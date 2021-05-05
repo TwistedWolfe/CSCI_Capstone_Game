@@ -1,0 +1,59 @@
+playMusic(CCLYLL_BGM) transBackground(school_corridor, blur)
+
+narrator "You make your way to the school, hoping to find something to spark inspiration...
+
+narrator "As you make your way through the halls...{c}You spot a <color=red><i>familiar yet strange person</i></color> making their way over to you.."
+
+*?????? "Oh!{a} Hey there [playername]!"
+
+enter(Python)
+
+narrator "The girl in front of you looks strange.{a}...but you feel as if you know her from somewhere{a}...somehow."
+
+*?? "<color=blue>Python</color> wait up! You're walking way too fast!"
+
+narrator "A boy comes running behind after the girl. {c} Whose name you learn to be <color=blue>Python</color>."
+
+move(Python,0.1,0.0,10,true)
+
+enter(CSharp) move(CSharp,0.8,0.0,10,true)
+
+Python "Geez for being a C brother you're incredibly slow!"
+
+narrator "The boy blushes in embarrassment."
+
+*?? "That's very cruel <color=blue>Python</color>!"
+
+Python "Well it's what you get for trying to race me to greet [playername], can't beat the <b>fastest</b> in a race Mr. <color=purple>C#</color>!"
+
+CSharp "Not everyone can handle being as <b>dynamic</b> as you <color=blue>Python</color>! I much prefer being as <b>static</b> as it comes."
+
+Python "Just learn to follow the <b>procedural</b> code <color=purple>C#</color>!"
+
+CSharp "I prefer to remain <b>fully object-oriented</b> thank you very much!{c} We can all do both like you <color=blue>Python</color>..."
+
+narrator "The too seem as if they could bicker forever...{c}Maybe you should say something?"
+
+CHOICE "What do you say?"
+{
+  "Why a race?"
+    Player "So, why are you two racing to greet me first?"
+  "What's up?"
+    Player "What are you two in such a hurry for?"
+}
+
+narrator "<color=blue>Python</color> and <color=purple>C#</color> cease their bickering and turn to you with a smile.{c} <i>This should be fun.</i>"
+
+Python "We both were coming to see you for a chance to partner with you on a project!{c}We both want you as our partner, so we decided a friendly race was in order."
+
+CSharp "Though now it seems kind of silly to be telling you this...{a}Maybe we should let [playername] decide who to partner with huh <color=blue>Python</color>?"
+
+Python "A very <i>sharp</i> idea <color=purple>C#</color>!{c} So [playername] Who do you want to partner with?"
+
+CHOICE "Which partner?"
+{
+  "Python"
+    Load(CH2_Python)
+  "C#"
+    Load(CH2_CSharp)
+}

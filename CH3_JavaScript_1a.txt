@@ -1,0 +1,43 @@
+[playername] "I'd like to get to know your history more."
+
+narrator "<color=yellow>JavaScript</color> smiles at you."
+
+JavaScript "Alright let's get started then!"
+
+"In September 1995, a Netscape programmer named <b><i>Brandan Eich</i></b> developed a new scripting language in just 10 days. {c} I was originally named Mocha, but became known as LiveScript and, later, <color=yellow>JavaScript</color>!"
+"I look pretty good for 25, right? {c} I'm primarily a <b><i>client-side language</i></b>, meaning I run on computers within the browser. {c} However, with the introduction of Node.js I can execute code onto servers!"
+"Since my release, I've surpassed <color=orange>Java</color>, Flash, and other languages because I am relatively easy to learn, have a free and open community, and most importantly, I'm incredibly useful!"
+"For the seventh year in a row (as of 2019) I'm ranked the <b><i>most commonly used programming language</i></b>! With 67.8% of developers employing me in 2019."
+"I was created out of necessity, and used to build <i><b>95.2% (1.52 billion)</b></i> of websites today! {c} Including some of the largest, like Facebook, YouTube, eBay, and Google Maps!"
+"According to GitHub's 2018 Octoverse report, there are more repositories all about me than any other language!"
+"My name came from Netscape's support of <color=orange>Java</color> applets within its browser.{c} Though many say it was also a marketing tactic to divert some attention from <color=orange>Java</color>...{a}serves him right!"
+"Though I didn't exactly have the best start, I didn't perform as well and those developing with <color=orange>Java</color> considered me to be more of a UI Glue to be used by designers and non-engineers.{c} How rude!"
+"It's thanks to this glue language that allowed the internet to really flourish, {a} you're welcome!"
+"2005 was a really big year for me, when a paper released by <b><i>Jesse James Garrett</i></b> introduced <b><i>Ajax</i></b>. {c} Ajax being a revolutionary suite of technologies that included me, Ajax vastly improved user experience by allowing web pages to feel more like native desktop apps."
+"Thanks to Ajax, I was really pushed into the spotlight as a professional programming language! Thanks Ajax!"
+
+narrator "<color=yellow>JavaScript</color> is really an underdog of the programming world, but she seems to be doing well for herself. {c} You feel a lot more inspired after your conversation."
+
+[playername] "Thanks for sharing all of this with me <color=yellow>JavaScript</color>, you've really given me something to think about!"
+
+JavaScript "No problem kid! It's what I'm here for, glad I could help."
+
+exit(JavaScript)
+
+narrator "You and <color=yellow>JavaScript</color> chat for a bit more and then part ways for the evening."
+
+transBackground(room_dusk_light_on, rightLeft) playMusic(Opening_for_CCLYLL_-_80_BPM)
+
+narrator "You had a great time learning all about <color=yellow>JavaScript</color>'s history...{a} and you're feeling very inspired!"
+
+[playername] "I've decided to do a project with <color=yellow>JavaScript</color>."
+
+*Professor "That's great [playername], what brought on this idea?"
+
+[playername] "Just a conversation with a friend."
+
+transBackground(black, feathers)
+
+narrator "Thanks for playing! You've successfully completed <color=yellow>JavaScript</color>'s route 1! {c} You can click the MENU button to return to the main menu and see what other routes there are to discover. {c} Happy playing! -Bec"
+
+playMusic(null)

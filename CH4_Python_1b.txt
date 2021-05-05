@@ -1,0 +1,45 @@
+[playername] "I'd like to get to know your uses more."
+
+narrator "<color=blue>Python</color> smiles at you."
+
+Python "An <i>excellent</i> choice, Player! Let's get started!"
+
+"To begin, I'll start with a bit of background info.{c} I am an <i><b>open-source, high-level, general-purpose programming language</b></i> that incorporates the features of object-oriented, structural, and functional programming."
+"I offer numerous options for web development.{c} My web frameworks are known for their security, scalability, and flexibility."
+"I come loaded with many useful extensions that come in handy for the development of interactive games.{c} Game designers also use me for developing tools to simplify specific actions such as level design or dialog tree creation."
+"They even use those tools to export those tasks in formats that can be used by the primary game engine.{c}I am also used a scripting language by many game engines."
+"Thanks to my massive library base, I have become a crucial tool in scientific and numeric computing.{c}In fact, I provide the skeleton for applications that deal with computation and scientific data processing."
+"I am the <b><i>most favored language of Data Science professionals</i></b>.{c} My simplicity, consistency, platform independence, great collection of resourceful libraries, and active community make me the perfect tool for developing AI and Machine Learning applications."
+"I offer many GUI toolkits and frameworks that make desktop application development a breeze."
+"Software developers use me as a support language for build control, testing, and management.{c} I also support data analyzation and visualization, thereby further simplifying the process of creating custom solutions minus the extra effort and time investment."
+"I am a beginner-friendly programming language, and have an extremely <i><b>straightforward syntax that's similar to the English language.</b></i>"
+"My easy learning curve and simplicity are the two main reasons why I am one of the most used programming languages in the educational programs, both at beginner and advanced levels."
+"Usually I am combined with the C programming language to design and develop operating systems."
+"I also find a unique use case in image processing and graphic design applications.{c} I am used globally to design and build 2D imaging software like <i><b>Inkscape, GIMP, Paint, Shop Pro, and Scribus.</b></i>"
+"I am also used in several 3D animation packages such as <i><b>Blender, Houdini, 3ds Max, Maya, Cinema 4D, and Lightwave.</b></i>"
+
+narrator "Wow <color=blue>Python</color> sure has an extensive and inclusive list of uses! {c} You feel a lot more inspired after your conversation."
+
+[playername] "Thanks for sharing all of this with me <color=blue>Python</color>, you've really given me something to think about!"
+
+Python "Thanks for listening! {c}That was a lot of my uses thrown at you at once!{c} I hope I laid things out in a way that allowed me to keep your attention!
+
+exit(Python)
+
+narrator "You and <color=blue>Python</color> chat for a bit more and then part ways for the evening."
+
+transBackground(room_dusk_light_on, rightLeft) playMusic(Opening_for_CCLYLL_-_80_BPM)
+
+narrator "You had a great time learning all about <color=blue>Python</color>'s uses...{a} and you're feeling very inspired!"
+
+[playername] "I've decided to do a project with <color=blue>Python</color>."
+
+*Professor "That's great [playername], what brought on this idea?"
+
+[playername] "Just a conversation with my partner in crime."
+
+transBackground(black, feathers)
+
+narrator "Thanks for playing! You've successfully completed <color=blue>Python</color>'s route 2! {c} You can click the MENU button to return to the main menu and see what other routes there are to discover. {c} Happy playing! -Bec"
+
+playMusic(null)

@@ -1,0 +1,39 @@
+narrator "You decide to go with <color=blue>Python</color>."
+
+exit(CSharp)
+
+move(Python,0.5,0.0,10,true)
+
+Python "Great pick [playername]! Let's head to the library and I'll show you why I'm the perfect partner!"
+
+narrator "The two of you head to the library."
+
+exit(Python)
+
+transBackground(library, leftRight)
+
+narrator "The library is quiet and full of amazing books, a good place to gather some inspiration!"
+
+enter(Python)
+
+Python "Alright! I'm ready to be interviewed!"
+
+[playername] "Wha-{a}...Interviewed?"
+
+narrator "<color=blue>Python</color> gives you a pouting look."
+
+Python "Yes, silly!{a} Interviewed!{c} How else will you learn of my partner potential?"
+
+narrator "Well if it'll make <color=blue>Python</color> happy..."
+
+[playername] "Right...well let's get started then I guess."
+
+*Python "Yay! Well what would you like to know?"
+
+CHOICE "What do you want to hear about?"
+{
+  "Python History"
+    Load(CH3_Python_1a)
+  "Python Uses"
+    Load(CH4_Python_1b)
+}

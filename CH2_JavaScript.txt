@@ -1,0 +1,27 @@
+narrator "You decide to go with <color=yellow>JavaScript</color>."
+
+exit(Java)
+
+move(JavaScript,0.5,0.0,10,true)
+
+JavaScript "An excellent choice!{c} But let's go somewhere other than this dingy office to chat!"
+
+narrator "The two of you leave the office."
+
+exit(JavaScript)
+
+transBackground(beautiful_park, leftRight)
+
+narrator "And take a stroll through a local park. {c} <color=yellow>JavaScript</color> Looks at you."
+
+enter(JavaScript)
+
+JavaScript "Alright, since you got me away from work I'll tell you whatever you wanna know! {c} C'mon ask me whatever you want."
+
+CHOICE "What will you learn about JS?"
+{
+    "JS History"
+      Load(CH3_JavaScript_1a)
+    "JS Uses"
+      Load(CH4_JavaScript_1b)
+}

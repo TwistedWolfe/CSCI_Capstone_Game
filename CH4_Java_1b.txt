@@ -1,0 +1,40 @@
+[playername] "I'd like to get to know your uses more."
+
+narrator "<color=orange>Java</color> smiles at you."
+
+Java "Alright, well let's get started."
+
+"Let's begin with a little background.{c} I am a programming language, designed to be <i><b>concurrent, class-based and object orientated, as well as a computing platform</i></b>."
+"I can be used to create complete applications that may run on a single computer or be distributed among servers and clients in a network.{c} I can also be used to build a small application module or <i><b>applet, a simply designed, small application for use as a part of a Web page</b></i>."
+"I have become invaluable to developers by enabling them to: write software on one platform and run it on virtually any other platform.{c}Create programs that can run within a web browser and access available web services."
+"I can be used to develop server-side application for online forums, stores polls, HTML forms processing, and more.{c} I allow users to <i><b>combine applications or services</b></i> using my language to create highly customized applications or services."
+"Using me, users can write powerful and efficient applications for <i><b>mobile phones, remote processors, microcontrollers, wireless modules, sensors, gateways, consumer products, and practically any other electric device.</b></i>"
+"<i><b>89%</b></i> of desktops (or computers) in the US run me. {c} I have <b><i>9 million developers worldwide</i></b>, and I am the number one choice for developers."
+"I can be used for the development of scientific application, desktop GUI application, development of web applications, mobile applications, enterprise applications development, application servers and web servers."
+"I am not too complicated to understand. {c} I represent an instance of a class like <i><b>encapsulation, abstraction, inheritance, polymorphism</b></i>. {c} I have no complication in my features like an <i><b>inheritance, pointer, operator overloading, etc.</b></i>"
+
+narrator "<color=orange>Java</color> is a really sophisticated programming language, and has many useful purposes!. {c} You feel a lot more inspired after your conversation."
+
+[playername] "Thanks for sharing all of this with me <color=orange>Java</color>, you've really given me something to think about!"
+
+Java "It's my pleasure [playername], I'm glad you enjoyed."
+
+exit(Java)
+
+narrator "You and <color=orange>Java</color> chat for a bit more and then part ways for the evening."
+
+transBackground(room_dusk_light_on, rightLeft) playMusic(Opening_for_CCLYLL_-_80_BPM)
+
+narrator "You had a great time learning all about <color=orange>Java</color>'s uses...{a} and you're feeling very inspired!"
+
+[playername] "I've decided to do a project with <color=orange>Java</color>."
+
+*Professor "That's great [playername], what brought on this idea?"
+
+[playername] "Just a conversation over coffee with a friend."
+
+transBackground(black, feathers)
+
+narrator "Thanks for playing! You've successfully completed <color=orange>Java</color>'s route 1! {c} You can click the MENU button to return to the main menu and see what other routes there are to discover. {c} Happy playing! -Bec"
+
+playMusic(null)

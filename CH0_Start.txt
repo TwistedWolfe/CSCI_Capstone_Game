@@ -1,0 +1,45 @@
+setBackground(black)
+
+narrator "...."
+
+*Professor "Make sure you all come up with project idea for your capstone.{c} You have all semester to work on it, but time flies fast! {c} Get back to me with your ideas as soon as you can,{a} Goodnight all!"
+
+setBackground(room_evening_light_off, 1, true)
+
+[playername] "<i>Sigh</i>...{c}I don't have any idea where to begin with this project...{a}maybe I'm not cut out for this..."
+
+narrator "You notice the time on the clock"
+
+[playername] "Maybe a good nights rest will prove to be helpful...{a}<i>I hope</i>..."
+
+transBackground(black, circle_light, 5)
+
+[playername] "...<i>Huh?</i>"
+
+transBackground(matrix, hypno, 5)
+
+*?????? "<i>Seems someone is in need of a little inspiration, don't you think?</i>"
+
+*?? "<i>I'm sure we can provide all the assistance needed! Just leave it to us</i>"
+
+*?????????? "<i>It'll be a bit of a competition to see which of us can win them over, of course I'll be the victor.</i>"
+
+*???? "<i>Hmph...Let's just get this over with</i>"
+
+*?????? "<i>Oh?{a} Scared you won't be picked?</i>"
+
+*???? "<i>Absurd! It will be no contest at all.</i>"
+
+*?????? "<i>Then let's get started! See you when you wake [playername]!</i>"
+
+transBackground(room_morning_light_off, radialClock)
+
+[playername] "...{a}...{a}...{c}What a strange dream...{c}Well a new day means new decisions.{c}I can head to the office or head to the school,{a} <i><b>Maybe one of those will give me the inspiration that I need</b></i>"
+
+CHOICE "Where will you go?"
+{
+    "Office"
+    Load(CH1_JavaAndJS)
+    "School"
+    Load(CH1_PythonAndCSharp)
+}

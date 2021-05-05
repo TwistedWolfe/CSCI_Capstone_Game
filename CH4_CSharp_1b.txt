@@ -1,0 +1,43 @@
+[playername] "I'd like to get to know your uses more."
+
+narrator "<color=purple>C#</color> looks at you happily."
+
+CSharp "Okay! Here we go."
+
+"I can be used to create a number of different programs and applications: mobile apps, desktop apps, cloud-based services, websites, enterprise software, and games."
+"I am often used to develop professional, dynamic websites on the .NET platform, or open-source software.{c} Because I'm object-oriented, I'm often utilized to develop websites that are incredibly efficient, easily scalable and a breeze to maintain."
+"I was created by Microsoft for Microsoft, so it's easy to see why I'm most popularly used for the development of Windows desktop applications.{c} My applications require the Windows .NET framework in order to function at their best."
+"The strongest use case for me is developing applications and programs that are specific to the architecture of the Microsoft platform."
+"I might be one of the best programming languages for gaming. I am heavily used to create fan-favorite games like Rimworld on the Unity Game Engine."
+"In case you weren't aware, Unity is by far the most popular game engine available, on which more than a third of the industry's best and most commonly-played games were built."
+"I integrate seamlessly with the Unity engine and can be used on virtually any modern mobile device or console thanks to cross-platform tech like Xamarin.{c} Seems I'm great for Unity game development aren't I?"
+"I emphasize simplicity and efficiency, so programmers can spend less time writing complicated stacks of code that are repeatedly used throughout the project."
+"Thanks to my simplicity and easy-to-use features, I offer a fairly low learning curve for beginners."
+"I am a programming language that is remarkably scalable and easy to maintain.{c}Because of the strict nature of how static codes must be written, my programs are reliably consistent, which makes them much easier to adjust and maintain than programs that are written using other languages."
+"If you ever need to return to an old project written with me, you'll be pleased to find that while your processes may be changed over the years, your stack has remained the same across the board."
+
+narrator "C# has a lot of amazing uses, while being easy to use.{c}It seems especially great for game development!{c}You feel a lot more inspired after your conversation."
+
+[playername] "Thanks for sharing all of this with me <color=purple>C#</color>, you've really given me something to think about!"
+
+CSharp "I appreciate your listening, hopefully I made my uses interesting for you!"
+
+exit(CSharp)
+
+narrator "You and <color=purple>C#</color> chat for a bit more and then part ways for the evening."
+
+transBackground(room_dusk_light_on, rightLeft) playMusic(Opening_for_CCLYLL_-_80_BPM)
+
+narrator "You had a great time learning all about <color=purple>C#</color>'s uses...{a} and you're feeling very inspired!"
+
+[playername] "I've decided to do a project with <color=purple>C#</color>."
+
+*Professor "That's great [playername], what brought on this idea?"
+
+[playername] "Just a conversation with a good friend."
+
+transBackground(black, feathers)
+
+narrator "Thanks for playing! You've successfully completed <color=purple>C#</color>'s route 2! {c} You can click the MENU button to return to the main menu and see what other routes there are to discover. {c} Happy playing! -Bec"
+
+playMusic(null)

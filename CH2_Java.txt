@@ -1,0 +1,27 @@
+narrator "You decide to go with <color=orange>Java</color>."
+
+exit(JavaScript)
+
+move(Java,0.5,0.0,10,true)
+
+Java "A wise choice [playername]{c} Allow me to treat you to a coffee while we chat."
+
+narrator "The two of you leave the office."
+
+exit(Java)
+
+transBackground(cafe_memoria_test_render, leftRight)
+
+narrator "You're taken to a color coffee shop{c} The whole shop smells like delicious coffee. {c} <color=orange>Java</color> comes you way bearing a coffee for each of you."
+
+enter(Java)
+
+Java "There you are [playername]. Now, what would you like to learn?"
+
+CHOICE "What will you learn about Java?"
+{
+    "Java History"
+      Load(CH3_Java_1a)
+    "Java Uses"
+      Load(CH4_Java_1b)
+}

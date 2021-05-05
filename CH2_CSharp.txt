@@ -1,0 +1,39 @@
+narrator "You decide to go with <color=purple>C#</color>."
+
+exit(Python)
+
+move(CSharp,0.5,0.0,10,true)
+
+CSharp "I appreciate it [playername], let's head to the rooftop and get some fresh air."
+
+narrator "The two of you head to the rooftop."
+
+exit(CSharp)
+
+transBackground(rooftop, leftRight)
+
+narrator "On the rooftop the sun is shining and the temperature is just right."
+
+enter(CSharp)
+
+CSharp "Okay, I'm ready to prove to you what a good partner I can be!"
+
+[playername] "Wha-{a}...prove you're a good partner?"
+
+narrator "<color=purple>C#</color> gives you a shy look."
+
+CSharp "Yeah, I mean it's only the right thing to do since we bombarded you this morning..."
+
+narrator "You can't leave <color=purple>C#</color> looking like a sad puppy can you?"
+
+[playername] "Well alright, I'll happy to oblige."
+
+CSharp "Okay! Well ask away."
+
+CHOICE "What do you want to hear about?"
+{
+  "C# History"
+    Load(CH3_CSharp_1a)
+  "C# Uses"
+    Load(CH4_CSharp_1b)
+}
